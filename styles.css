@@ -1,0 +1,120 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #fffbfb;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    width: 100%;
+    max-width: 500px;
+    background: #ffffff;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+}
+
+header {
+    background: #2a2a2a;
+    padding: 15px;
+    text-align: center;
+    font-size: 1.2em;
+    font-weight: bold;
+    
+}
+
+.post {
+    padding: 15px;
+}
+
+.post-header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.profile-pic {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.username {
+    font-weight: bold;
+    color: black;
+}
+
+.post-image {
+    width: 100%;
+    height: 400px;
+    background-image: url('./mainphoto.jpg');
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.post-actions {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 10px;
+}
+
+.icon {
+    width: 24px;
+    height: 24px;
+    cursor: pointer;
+}
+
+.like-icon {
+    background-image: url('./heart.svg');
+    background-size: cover;
+}
+
+.comment-icon {
+    background-image: url('./chat.svg');
+    background-size: cover;
+}
+
+.share-icon {
+    background-image: url('./send.svg');
+    background-size: cover;
+}
+
+.comment-box {
+    display: none;
+    margin-top: 10px;
+}
+
+#comment-box input {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #444;
+    background: #2a2a2a;
+    color: #ffffff;
+    outline: none;
+}
+
+.post-comments {
+    margin-top: 10px;
+}
+
+.post-comments .comment {
+    margin-bottom: 10px;
+}
+
+.post-comments .comment span {
+    font-weight: bold;
+    margin-right: 5px;
+    
+}
+
+.comment{
+    color: black;
+}
